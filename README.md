@@ -63,3 +63,18 @@ After training, the model is tested on the test set to evaluate its performance.
 
 ### task n.4: Online Task
 Finally, the robot uses the trained model to navigate its environment autonomously, making decisions based on real-time sensor inputs.
+
+## Citation
+
+If you use μ-Learn in your research or educational projects, please cite the following paper (currently under review at the International Conference on Robotics in Education - RiE 2026):
+
+```
+@inproceedings{fusaro2026rieconf,
+  title={μ-Learn: A Lightweight, On-Device Machine
+Learning Library for Educational Robotics
+Platforms},
+  author={Fusaro, Daniel and Cesaro, Laura and Moro, Michele and Menegatti, Emanuele},
+  booktitle={(Submitted to)~Intl.~Conf.~on Robotics in Education (RiE)},
+  year={2026}
+}
+```
