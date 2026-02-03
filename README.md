@@ -66,7 +66,7 @@ Finally, the robot uses the trained model to navigate its environment autonomous
 
 ## Citation
 
-If you use μ-Learn in your research or educational projects, please cite the following paper (currently under review at the International Conference on Robotics in Education - RiE 2026):
+If you use μ-Learn in your research or educational projects, please cite the following papers (currently under review at the International Conference on Robotics in Education - RiE 2026):
 
 ```
 @inproceedings{fusaro2026rieconf,
@@ -77,4 +77,12 @@ Platforms},
   booktitle={(Submitted to)~Intl.~Conf.~on Robotics in Education (RiE)},
   year={2026}
 }
+
+@inproceedings{cesaro2026rieconf,
+  title={Introducing Machine Learning to Middle-school students with Edge-AI in an educational robot},
+  author={Cesaro, Laura and Fusaro, Daniel and Moro, Michele and Menegatti, Emanuele},
+  booktitle={(Submitted to)~Intl.~Conf.~on Robotics in Education (RiE)},
+  year={2026}
+}
+
 ```
