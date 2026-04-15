@@ -87,3 +87,11 @@ Platforms},
 }
 
 ```
+
+## 📌 Progress
+
+- [x] add a simple MLP implementation
+- [x] add learning_activity example
+- [ ] add bluetooth communication support (REPL via Bluetooth ᚼᛒ )
+- [ ] expand the library for convolutional neural networks (CNNs)
+- [ ] add support for other tasks (e.g. 1-D SLAM using reinforcement learning)
