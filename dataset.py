@@ -1,4 +1,4 @@
-from utils.general_functions import shuffled_copy, rgb2hsv
+from utils.general_functions import shuffled_copy
 
 def read_data(files):
     data = []
@@ -10,8 +10,7 @@ def read_data(files):
         with open(file, "r") as f:
             for line in f:
                 rgb = list(map(float, line.strip().split(" ")))
-                rgb = rgb2hsv(rgb)
-                rgb = [int(rgb[0]), int(rgb[1]), int(rgb[2])]# scale back to [0,1023] for HSV
+                rgb = [int(rgb[0]), int(rgb[1]), int(rgb[2])]
                 data.append(rgb)
                 labels.append(label_offset)
         label_offset += 1

@@ -3,7 +3,7 @@ import struct, os
 
 def save_model(model, filename, classes):
     with open(filename, "wb") as f:
-        for layer in [model.fc1, model.fc2, model.fc3]:
+        for layer in model.fcs:
             for i in range(layer.out_f):
                 for j in range(layer.in_f):
                     f.write(bytearray(struct.pack("f", layer.W[i][j])))
@@ -18,7 +18,7 @@ def save_model(model, filename, classes):
 
 def read_model(model, filename):
     with open(filename, "rb") as f:
-        for layer in [model.fc1, model.fc2, model.fc3]:
+        for layer in model.fcs:
             for i in range(layer.out_f):
                 for j in range(layer.in_f):
                     bytes_read = f.read(4)

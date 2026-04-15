@@ -43,6 +43,7 @@ for epoch in range(EPOCHS_NUM):
 
 ## Learning Activity: Color Recognition
 An example learning activity using μ-Learn is provided in the `learning_activity` folder.
+(To visualize the code directly on github, you can see the activities in the `learning_activity_python` folder. Files are mirrored from LEGO .llsp3 files)
 
 This activity guides students through the process of building a simple robot that can learn to navigate its environment using a neural network.
 
